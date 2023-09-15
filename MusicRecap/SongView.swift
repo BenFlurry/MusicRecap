@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct SongView: View {
+    @State var song: MusicItem
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            AsyncImage(url: song.imageURL)
+            HStack() {
+                VStack() {
+                    Text(song.name)
+                        .font(.title2)
+                        .fontWeight(.bold)
+                    Text(song.artist)
+                        .font(.caption)
+                }
+            }
+            
+        }
     }
 }
 
 #Preview {
-    SongView()
+    SongView(song: .placeholder)
 }

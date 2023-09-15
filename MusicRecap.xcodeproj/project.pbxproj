@@ -11,6 +11,7 @@
 		435020BD2AB3BBAF0062C569 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435020BC2AB3BBAF0062C569 /* ContentView.swift */; };
 		435020BF2AB3BBB00062C569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435020BE2AB3BBB00062C569 /* Assets.xcassets */; };
 		435020C22AB3BBB00062C569 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435020C12AB3BBB00062C569 /* Preview Assets.xcassets */; };
+		435020C92AB3BDAC0062C569 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435020C82AB3BDAC0062C569 /* SongView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		435020BC2AB3BBAF0062C569 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		435020BE2AB3BBB00062C569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		435020C12AB3BBB00062C569 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		435020C82AB3BDAC0062C569 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
+		436800662AB4613200235664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		435020B92AB3BBAF0062C569 /* MusicRecap */ = {
 			isa = PBXGroup;
 			children = (
+				436800662AB4613200235664 /* Info.plist */,
 				435020BA2AB3BBAF0062C569 /* MusicRecapApp.swift */,
 				435020BC2AB3BBAF0062C569 /* ContentView.swift */,
+				435020C82AB3BDAC0062C569 /* SongView.swift */,
 				435020BE2AB3BBB00062C569 /* Assets.xcassets */,
 				435020C02AB3BBB00062C569 /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				435020C92AB3BDAC0062C569 /* SongView.swift in Sources */,
 				435020BD2AB3BBAF0062C569 /* ContentView.swift in Sources */,
 				435020BB2AB3BBAF0062C569 /* MusicRecapApp.swift in Sources */,
 			);
@@ -275,6 +281,8 @@
 				DEVELOPMENT_TEAM = WB46CA9337;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicRecap/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "PLez ALow";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +312,8 @@
 				DEVELOPMENT_TEAM = WB46CA9337;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicRecap/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "PLez ALow";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
